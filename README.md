@@ -61,6 +61,32 @@ CIMA is architected as a three-tier system:
 3.  **AI Engine**: **Ollama** running locally, serving open-weight models like **Llama 3.1** to perform high-fidelity inference without API costs.
 
 ---
+<img width="1882" height="986" alt="Screenshot 2025-11-19 230537" src="https://github.com/user-attachments/assets/8e72d1e2-ed08-4973-8003-13770dbe1d33" />
+
+
+<img width="1907" height="944" alt="Screenshot 2025-11-18 161317" src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" />
+
+
+<img width="1914" height="916" alt="Screenshot 2025-12-11 094126" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" />
+
+<img width="741" height="298" alt="Screenshot 2025-12-11 110223" src="https://github.com/user-attachments/assets/6389b9cb-447b-453f-b7ce-70b3b02b79f6" />
+
+<img width="1904" height="915" alt="Screenshot 2025-12-11 093633" src="https://github.com/user-attachments/assets/dce8b0ea-8fed-497e-916f-3f7ea969b8f9" />
+<img width="1911" height="910" alt="Screenshot 2025-12-11 094600" src="https://github.com/user-attachments/assets/1c52b5a6-8fb1-41c4-9cf3-37b14985d4ea" />
+<img width="1353" height="714" alt="Screenshot 2025-12-11 094727" src="https://github.com/user-attachments/assets/7e45e78e-eb12-4672-b2c6-c96c20d15605" />
+
+<img width="991" height="459" alt="Screenshot 2025-11-20 083829" src="https://github.com/user-attachments/assets/95519aa2-9df6-4229-ac68-c66bcf2c8eb3" />
+
+<img width="826" height="116" alt="Screenshot 2025-11-20 083838" src="https://github.com/user-attachments/assets/b412581d-dcfc-46e7-afb9-5d5e9eea9de2" />
+
+<img width="1881" height="898" alt="Screenshot 2025-11-19 231120" src="https://github.com/user-attachments/assets/efae5f64-633a-483a-8fe9-cd29f16b7d00" />
+
+
+
+
+
+
+
 
 ## 🛡 MITRE ATT&CK Mapping
 
