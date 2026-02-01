@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIMA - Multi-Cloud IAM Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-content">
+            <div class="logo">
+                <i class="fas fa-cloud"></i>
+                <h1>CIMA</h1>
+            </div>
+            <p>Hello! I'm CIMA. What would you like to explore?</p>
+            <div class="typing-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app" class="app hidden">
+        <!-- Sidebar Toggle Button -->
+        <button id="sidebar-toggle" class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-comments"></i> Conversations</h2>
+                <button id="new-chat-btn" class="btn-secondary"><i class="fas fa-plus"></i> New Chat</button>
+            </div>
+            <div class="conversation-list" id="conversation-list">
+                <!-- Conversations will be populated here -->
+            </div>
+            <div class="sidebar-footer">
+                <button id="clear-history-btn" class="btn-secondary"><i class="fas fa-trash"></i> Clear History</button>
+                <button id="theme-toggle" class="btn-secondary"><i class="fas fa-moon"></i> Dark Mode</button>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="main-chat">
+            <div class="chat-container" id="chat-container">
+                <!-- Messages will be appended here -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-container">
+                    <div class="input-wrapper">
+                        <textarea id="message-input" placeholder="Ask about IAM policies or paste JSON to analyze..." rows="1"></textarea>
+                        <button id="send-btn" class="send-btn" disabled>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div class="input-options">
+                        <button class="mode-btn active" data-mode="chat">Chat</button>
+                        <button class="mode-btn" data-mode="analyze">Analyze JSON</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Elements for Parallax -->
+    <div class="floating-elements">
+        <div class="floating-element" style="top: 10%; left: 10%; animation-delay: 0s;"><i class="fas fa-cloud"></i></div>
+        <div class="floating-element" style="top: 20%; right: 15%; animation-delay: 2s;"><i class="fas fa-shield-alt"></i></div>
+        <div class="floating-element" style="bottom: 30%; left: 20%; animation-delay: 4s;"><i class="fas fa-key"></i></div>
+        <div class="floating-element" style="bottom: 20%; right: 10%; animation-delay: 6s;"><i class="fas fa-lock"></i></div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="delete-modal" class="modal hidden">
+        <div class="modal-overlay" id="delete-modal-overlay"></div>
+        <div class="modal-content delete-modal-content">
+            <h3>Are you sure you want to delete all conversation history?</h3>
+            <div class="modal-buttons">
+                <button id="confirm-delete" class="btn-danger">Delete</button>
+                <button id="cancel-delete" class="btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div id="export-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Export Conversation</h3>
+            <div class="export-options">
+                <button id="export-pdf" class="btn-primary">Export as PDF</button>
+                <button id="export-txt" class="btn-primary">Export as Text</button>
+                <button id="export-md" class="btn-primary">Export as Markdown</button>
+                <button id="export-json" class="btn-primary">Export as JSON</button>
+            </div>
+            <button id="close-modal" class="btn-secondary">Close</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
