@@ -90,7 +90,7 @@ Seamlessly switch between Light and Dark modes for comfortable viewing.
 
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="400" /> | <img width="800" alt="Analysis Output" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" /> |
+| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="800" /> | <img width="800" alt="Analysis Output" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" /> |
 
 ### 🔹 Analysis & Remediation
 CIMA identifies risks and provides JSON-formatted remediation steps.
