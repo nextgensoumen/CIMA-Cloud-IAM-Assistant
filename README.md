@@ -177,6 +177,7 @@ Access the app at: `http://127.0.0.1:5000`
 
 **Soumen Bhunia**
 
+![Role](https://img.shields.io/badge/Role-Project%20Lead-blueviolet?style=for-the-badge)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumen-bhunia/)
 
 
