@@ -169,15 +169,23 @@ Access the app at: `http://127.0.0.1:5000`
 **Brainware University** (December 2025)
 
 ### Project Team
-*   **Soumen Bhunia**  
-    [LinkedIn](https://www.linkedin.com/in/soumen-bhunia-392900223/) | [GitHub](https://github.com/nextgensoumen)
-*   **Biswajit Pal**  
-    [LinkedIn](https://www.linkedin.com/in/biswajit-pal-811646284)
-*   **Ananya Dutta**  
-    [LinkedIn](https://www.linkedin.com/in/ananya-dutta-315259285)
 
-### 💻 Developed by
-*   **Soumen Bhunia**
+**Soumen Bhunia**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumen-bhunia/)
+
+
+**Biswajit Pal**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/biswajit-pal-811646284/)
+
+
+   
+**Ananya Dutta**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ananya-dutta-315259285/)
+ 
+
 
 ---
 
