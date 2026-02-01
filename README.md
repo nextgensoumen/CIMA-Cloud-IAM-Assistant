@@ -56,38 +56,51 @@ CIMA acts as a chat-based security consultant. You can paste an IAM policy, and 
 
 CIMA is architected as a three-tier system:
 
-1.  **Frontend**: A responsive Web UI built with **HTML5, CSS3, and JavaScript**, ensuring a smooth chat experience.
-2.  **Backend**: A **Flask (Python)** server that handles request routing, session management, and prompt engineering.
-3.  **AI Engine**: **Ollama** running locally, serving open-weight models like **Llama 3.1** to perform high-fidelity inference without API costs.
+1.  **Frontend**: A responsive Web UI built with **HTML5, CSS3, and JavaScript**.
+2.  **Backend**: A **Flask (Python)** server handling request routing and AI integration.
+3.  **AI Engine**: **Ollama** running locally with **Llama 3.1** for inference.
 
-   <img width="991" height="459" alt="Screenshot 2025-11-20 083829" src="https://github.com/user-attachments/assets/3402c08e-3738-48d7-a021-562e3cbd4edc" />
-<img width="826" height="116" alt="Screenshot 2025-11-20 083838" src="https://github.com/user-attachments/assets/1196c53c-8c94-4b42-9d02-b0f10bad4539" />
+### System Diagram
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3402c08e-3738-48d7-a021-562e3cbd4edc" width="800" alt="System Architecture High Level" />
+</p>
 
-<img width="517" height="975" alt="Screenshot 2025-11-19 232308" src="https://github.com/user-attachments/assets/ac694b61-a286-4d38-9b1f-a614ecc71b21" />
-<img src="https://github.com/user-attachments/assets/6389b9cb-447b-453f-b7ce-70b3b02b79f6" height="300" />
-
-
-
+### Component Flow
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1196c53c-8c94-4b42-9d02-b0f10bad4539" width="800" alt="Component Flow Diagram" />
+</p>
 
 ---
+
 ## 📸 UI Preview
 
-### 🔹 Welcome & Dashboard
-The modern, dark-themed interface invites users to start auditing immediately.
+### 🔹 Dashboard & Analysis
+The modern interface providing deep insights into IAM risks.
 
-<img width="800" alt="Detailed Risk View" src="https://github.com/user-attachments/assets/dce8b0ea-8fed-497e-916f-3f7ea969b8f9" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ac694b61-a286-4d38-9b1f-a614ecc71b21" width="800" alt="Dashboard View" />
+</p>
 
-### 🔹 Chat Interface & Dark Mode
-Seamlessly switch between Light and Dark modes for comfortable viewing.
+### 🔹 Chat Interface (Light & Dark)
+Seamlessly switch between themes for comfortable viewing.
 
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="400" /> | <img width="800" alt="Analysis Output" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" /> |
+| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="400" alt="Light Mode" /> | <img src="https://github.com/user-attachments/assets/dce8b0ea-8fed-497e-916f-3f7ea969b8f9" width="400" alt="Dark Mode" /> |
 
-### 🔹 Analysis & Remediation
-CIMA identifies risks and provides JSON-formatted remediation steps.
+### 🔹 Detailed Findings
+Drill down into specific warnings like "Wildcard Permissions".
 
-<img src="https://github.com/user-attachments/assets/7e45e78e-eb12-4672-b2c6-c96c20d15605" height="300" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" width="800" alt="Analysis Results" />
+</p>
+
+### 🔹 Mobile Responsiveness
+Fully functional on mobile devices.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6389b9cb-447b-453f-b7ce-70b3b02b79f6" height="400" alt="Mobile View" />
+</p>
 
 
 
