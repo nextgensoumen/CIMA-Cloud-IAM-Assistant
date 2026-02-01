@@ -60,38 +60,35 @@ CIMA is architected as a three-tier system:
 2.  **Backend**: A **Flask (Python)** server that handles request routing, session management, and prompt engineering.
 3.  **AI Engine**: **Ollama** running locally, serving open-weight models like **Llama 3.1** to perform high-fidelity inference without API costs.
 
+   <img width="991" height="459" alt="Screenshot 2025-11-20 083829" src="https://github.com/user-attachments/assets/3402c08e-3738-48d7-a021-562e3cbd4edc" />
+<img width="826" height="116" alt="Screenshot 2025-11-20 083838" src="https://github.com/user-attachments/assets/1196c53c-8c94-4b42-9d02-b0f10bad4539" />
+
+<img width="517" height="975" alt="Screenshot 2025-11-19 232308" src="https://github.com/user-attachments/assets/ac694b61-a286-4d38-9b1f-a614ecc71b21" />
+<img src="https://github.com/user-attachments/assets/6389b9cb-447b-453f-b7ce-70b3b02b79f6" height="300" />
+
+
+
+
 ---
 ## 📸 UI Preview
 
 ### 🔹 Welcome & Dashboard
 The modern, dark-themed interface invites users to start auditing immediately.
 
-<img width="800" alt="CIMA Welcome Screen" src="https://github.com/user-attachments/assets/8e72d1e2-ed08-4973-8003-13770dbe1d33" />
+<img width="800" alt="Detailed Risk View" src="https://github.com/user-attachments/assets/dce8b0ea-8fed-497e-916f-3f7ea969b8f9" />
 
 ### 🔹 Chat Interface & Dark Mode
 Seamlessly switch between Light and Dark modes for comfortable viewing.
 
 | Light Mode | Dark Mode |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="400" /> | <img src="https://github.com/user-attachments/assets/efae5f64-633a-483a-8fe9-cd29f16b7d00" width="400" /> |
+| <img src="https://github.com/user-attachments/assets/5cb8e2c3-c701-43ae-86be-eb57132496a7" width="400" /> | <img width="800" alt="Analysis Output" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" /> |
 
 ### 🔹 Analysis & Remediation
 CIMA identifies risks and provides JSON-formatted remediation steps.
 
-<img width="800" alt="Analysis Output" src="https://github.com/user-attachments/assets/d9621b47-36d9-44f6-bca0-bf4b8567e4fc" />
+<img src="https://github.com/user-attachments/assets/7e45e78e-eb12-4672-b2c6-c96c20d15605" height="300" />
 
-### 🔹 Mobile Responsiveness
-Fully functional on mobile devices for on-the-go auditing.
-
-<div style="display: flex; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/6389b9cb-447b-453f-b7ce-70b3b02b79f6" height="300" />
-  <img src="https://github.com/user-attachments/assets/7e45e78e-eb12-4672-b2c6-c96c20d15605" height="300" />
-</div>
-
-### 🔹 Detailed Findings
-Drill down into specific warnings like "Wildcard Permissions" or "Public Bucket Exposure".
-
-<img width="800" alt="Detailed Risk View" src="https://github.com/user-attachments/assets/dce8b0ea-8fed-497e-916f-3f7ea969b8f9" />
 
 
 
