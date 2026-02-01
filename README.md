@@ -168,9 +168,16 @@ Access the app at: `http://127.0.0.1:5000`
 **Department of Cyber Science & Technology**  
 **Brainware University** (December 2025)
 
-*   **Soumen Bhunia** - [GitHub](https://github.com/Alpha-Soumen)
-*   **Biswajit Pal**
-*   **Ananya Dutta**
+### Project Team
+*   **Soumen Bhunia**  
+    [LinkedIn](https://www.linkedin.com/in/soumen-bhunia-392900223/) | [GitHub](https://github.com/nextgensoumen)
+*   **Biswajit Pal**  
+    [LinkedIn](https://www.linkedin.com/in/biswajit-pal-811646284)
+*   **Ananya Dutta**  
+    [LinkedIn](https://www.linkedin.com/in/ananya-dutta-315259285)
+
+### 💻 Developed by
+*   **Soumen Bhunia**
 
 ---
 
